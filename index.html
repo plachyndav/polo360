@@ -11,35 +11,105 @@
 <body>
     <header class="main-header">
         <nav class="main-navigation">
-
-        </nav>
+            <div class="main-header-logo"></div>
+            <ul class="site-navigation">
+                <li><a class="site-navigation__link" href="#">Home<br><span class="site-navigation__link--comment">Back to home</span></a></li>
+                <li><a class="site-navigation__link" href="#">Products<br><span class="site-navigation__link--comment">What we have for you</span></a></li>
+                <li><a class="site-navigation__link" href="#">Services<br><span class="site-navigation__link--comment">Things we do</span></a></li>
+                <li><a class="site-navigation__link" href="#">Blog<br><span class="site-navigation__link--comment">Follow our updates</span></a></li>
+                <li><a class="site-navigation__link" href="#">Contact<br><span class="site-navigation__link--comment">Ways to reach us</span></a></li>
+            </ul>
+        </nav> 
     </header>
 
     <main>
         <h1 class="visually-hidden">Business Blog "Polo360"</h1>
     
-        <div class="slider">
-        </div>
+        <section class="introduction">
+            <h2 class="visually-hidden">Introuduction</h2>
+            <div class="slider">
+            </div>
+            <p class="site-slogan">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </section>
 
         <section class="articles">
             <h2 class="visually-hidden">Articles</h2>
+            <ul class=articles-list>
+                <li class="article">
+                    <h3 class="article__name">Perfect Logic</h3>
+                    <p class="article__explanation">All you want your website to do.</p>
+                    <img class="article__picture" src="img/logic.jpg" alt="">
+                    <p class="article__preview">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <a class="btn" href="#">Learn more</a>
+                </li>
+                <li class="article">
+                    <h3 class="article__name">Complete Solution</h3>
+                    <p class="article__explanation">A tool anything and everything you can think</p>
+                    <img class="article__picture" src="img/solution.jpg" alt="">
+                    <p class="article__preview">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciun tdolore magnam aliquam quaerat voluptatem.</p>
+                    <a class="btn" href="#">Learn more</a>
+                </li>
+                <li class="article">
+                    <h3 class="article__name">Uber Culture</h3>
+                    <p class="article__explanation">Fresh. Modern and ready for future</p>
+                    <img class="article__picture" src="img/culture.jpg" alt="">
+                    <p class="article__preview">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <a class="btn" href="#">Learn more</a>
+                </li>
+            </ul>
         </section>
 
         <section class="social">
             <h2>Social Connection</h2>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <div class="social__links"></div>
+            <div class="newsletter">
+                <b>Newsletter</b>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                <form action="#">
+                    <input type="text" placeholder="your email address">
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
         </section>
 
         <section class="contact">
             <h2>Contact</h2>
+            <form action="#">
+                <input type="text" placeholder="your name">
+                <input type="text" placeholder="your email address">
+                <textarea>message</textarea>
+                <button class="btn">Send it</button>
+            </form>
         </section>
 
         <section class="news">
             <h2>News Updates</h2>
+            <ul class="news-list">
+                <li class="news-item"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></li>
+                <li class="news-item"><a href="#">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</a></li>
+                <li class="news-item"><a href="#">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</a></li>
+            </ul>
+            <a class="btn" href="#">Visit our Blog</a>
         </section>
-
     </main>
 
-    <footer>
+    <footer class=main-footer>
+        <p class="footer-info">Powered by Wordpress. Design and Developed by VIVROCKS.</p>
+        <nav class="footer-navigation">
+            <ul class="footer-navigation__site-navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="footer-navigation__policy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of use</a></li>
+            </ul>
+        </nav>
+        <p class="copyright">Copyright 2010. Studio VIVROCKS. All Rights Reserved.</p>
     </footer>
 
     <script src="js/script.js"></script>
