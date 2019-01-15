@@ -13,13 +13,13 @@
 <body>
     <header class="main-header">
         <nav class="main-navigation">
-            <div class="main-header-logo"></div>
+            <div class="logo"><span class="polo-name">Polo360</span><br><span class="polo-moto">My kind of business blog</span></div>
             <ul class="site-navigation">
-                <li><a class="site-navigation__link" href="#">Home<br><span class="site-navigation__link--comment">Back to home</span></a></li>
-                <li><a class="site-navigation__link" href="#">Products<br><span class="site-navigation__link--comment">What we have for you</span></a></li>
-                <li><a class="site-navigation__link" href="#">Services<br><span class="site-navigation__link--comment">Things we do</span></a></li>
-                <li><a class="site-navigation__link" href="#">Blog<br><span class="site-navigation__link--comment">Follow our updates</span></a></li>
-                <li><a class="site-navigation__link" href="#">Contact<br><span class="site-navigation__link--comment">Ways to reach us</span></a></li>
+                <li><a href="#">Home<br><span class="link-comment">Back to home</span></a></li>
+                <li><a href="#">Products<br><span class="link-comment">What we have for you</span></a></li>
+                <li><a href="#">Services<br><span class="link-comment">Things we do</span></a></li>
+                <li><a href="#">Blog<br><span class="link-comment">Follow our updates</span></a></li>
+                <li><a href="#">Contact<br><span class="link-comment">Ways to reach us</span></a></li>
             </ul>
         </nav> 
     </header>
@@ -38,54 +38,54 @@
             <h2 class="visually-hidden">Articles</h2>
             <ul class=articles-list>
                 <li class="article">
-                    <h3 class="article__name">Perfect Logic</h3>
-                    <p class="article__explanation">All you want your website to do.</p>
-                    <img class="article__picture" src="img/logic.jpg" alt="">
-                    <p class="article__preview">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a class="btn" href="#">Learn more</a>
+                    <h3 class="article-name">Perfect Logic</h3>
+                    <p class="article-explanation">All you want your website to do.</p>
+                    <img class="article-picture" src="img/logic.jpg" alt="">
+                    <p class="article-preview">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <a class="btn btn-learn" href="#">Learn more</a>
                 </li>
                 <li class="article">
-                    <h3 class="article__name">Complete Solution</h3>
-                    <p class="article__explanation">A tool anything and everything you can think</p>
-                    <img class="article__picture" src="img/solution.jpg" alt="">
-                    <p class="article__preview">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciun tdolore magnam aliquam quaerat voluptatem.</p>
-                    <a class="btn" href="#">Learn more</a>
+                    <h3 class="article-name">Complete Solution</h3>
+                    <p class="article-explanation">A tool anything and everything you can think</p>
+                    <img class="article-picture" src="img/solution.jpg" alt="">
+                    <p class="article-preview">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciun tdolore magnam aliquam quaerat voluptatem.</p>
+                    <a class="btn btn-learn" href="#">Learn more</a>
                 </li>
                 <li class="article">
-                    <h3 class="article__name">Uber Culture</h3>
-                    <p class="article__explanation">Fresh. Modern and ready for future</p>
-                    <img class="article__picture" src="img/culture.jpg" alt="">
-                    <p class="article__preview">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                    <a class="btn" href="#">Learn more</a>
+                    <h3 class="article-name">Uber Culture</h3>
+                    <p class="article-explanation">Fresh. Modern and ready for future</p>
+                    <img class="article-picture" src="img/culture.jpg" alt="">
+                    <p class="article-preview">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <a class="btn btn-learn" href="#">Learn more</a>
                 </li>
             </ul>
         </section>
 
         <section class="social">
             <h2>Social Connection</h2>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <p class="social-intro">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
             <div class="social__links"></div>
             <div class="newsletter">
                 <b>Newsletter</b>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-                <form class="subscribe-form" action="#" method="post">
+                <p class="social-intro">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                <form class="form" action="#" method="post">
                     <label class="visually-hidden" for="subscription-email">email for subscribe</label>
                     <input id="subscription-email" name="subscription-email" type="text" placeholder="your email address">
-                    <button class="btn" type="submit">Subscribe</button>
+                    <button class="btn btn-connect" type="submit">Subscribe</button>
                 </form>
             </div>
         </section>
 
         <section class="contact">
             <h2>Contact</h2>
-            <form class="contact-form" action="" method="post">
+            <form class="form" action="" method="post">
                 <label class="visually-hidden" for="user-name">user name</label>
                 <input id="user-name" type="text" name="user-name" value="" placeholder="your name">
                 <label class="visually-hidden" for="user-email">user email</label>
                 <input id="user-email" type="text" name="user-email" value="" placeholder="your email address">
                 <label class="visually-hidden" for="user-message">user message</label>
                 <textarea id="user-message" name="user-message" placeholder="message"></textarea>
-                <button class="btn" type="submit">Send it</button>
+                <button class="btn btn-connect" type="submit">Send it</button>
             </form>
         </section>
 
@@ -96,14 +96,14 @@
                 <li class="news-item"><a href="#">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</a></li>
                 <li class="news-item"><a href="#">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</a></li>
             </ul>
-            <a class="btn" href="#">Visit our Blog</a>
+            <a class="btn btn-connect" href="#">Visit our Blog</a>
         </section>
     </main>
 
-    <footer class=main-footer>
+    <footer class="main-footer">
         <p class="footer-info">Powered by Wordpress. Design and Developed by VIVROCKS.</p>
         <nav class="footer-navigation">
-            <ul class="footer-navigation__site-navigation">
+            <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Products</a></li>

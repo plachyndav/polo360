@@ -1,25 +1,38 @@
 body {
-  margin: 0;
-  /* font-family: "Helvetica", sans-serif;
-  font-family: "Georgia", serif;
-  font-family: "Tahoma", sans-serif;
-  font-family: 'Lato', "Helvetica", sans-serif; */
+    margin: 0;
+    padding: 0;
+
+    font-family: "Helvetica", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #444444;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
+    color: inherit;
 }
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -36,4 +49,168 @@ html {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
+
+/* header */
+
+.main-header {
+    color: #666666;
+}
+
+.logo {
+    font-family: "Lato", "Helvetica", sans-serif;
+}
+
+.polo-name {
+    color: #3a3a3a;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.polo-moto {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.site-navigation {
+    font-family: Georgia;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 14px;
+
+    list-style: none;
+}
+
+.link-comment {
+    color: #b7b7b7;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #000000;
+}
+
+/* main */
+
+.site-slogan {
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.article {
+    list-style: none;
+}
+
+.article-name {
+    color: #11719e;
+    font-family: Georgia;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.article-explanation {
+    color: #8c8c8c;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.article-preview {
+    color: #3e3e3e;
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.4px;
+}
+
+.btn {
+    vertical-align: middle;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    border: 1px solid #ffffff;
+}
+
+.btn-learn {
+    color: #016999;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+
+    background-color: #f2f2f2;
+    background-image: url("../img/btn-grey .png");
+    border: 1px solid #d8d8d8;
+}
+
+.social-intro {
+    color: #444444;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+} 
+
+.btn-connect {
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+
+    background-color: #366ba5;
+    background-image: url("../img/btn-blue.png");
+    box-shadow: inset 0 0 3px #befeff;
+    border: 1px solid #004a80;
+}
+
+.news-list {
+    color: #444444;
+    list-style: none;
+}
+
+.form input,
+.form textarea {
+    font-family: "Verdana", sans-serif;
+    color: #d4d4d4;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+
+    border: 1px solid #cfcfcf;
+}
+
+/* footer */
+
+.main-footer {
+    color: #999999;
+    font-family: Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 10px; 
+
+    background-color: #333333;
+    border-top: 10px solid #4c4c4c;
+
+    list-style: none;
+}
+
+.footer-navigation ul {
+    list-style: none;
+}
+
+.footer-navigation a:hover,
+.footer-navigation a:focus {
+    color: #ffffff;
+
+}
