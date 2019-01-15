@@ -109,6 +109,11 @@ html {
     list-style: none;
 }
 
+.site-navigation li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .link-comment {
     color: #b7b7b7;
     font-family: Tahoma;
@@ -249,8 +254,11 @@ html {
     padding-left: 0;
 }
 
+.footer-navigation li {
+    display: inline-block;
+}
+
 .footer-navigation a:hover,
 .footer-navigation a:focus {
     color: #ffffff;
-
 }
