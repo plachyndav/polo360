@@ -51,6 +51,27 @@ html {
     overflow: hidden;
 }
 
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 285px;
+    margin-right: 35px;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
 /* header */
 
 .main-header {
@@ -58,6 +79,8 @@ html {
 }
 
 .logo {
+    float: left;
+
     font-family: "Lato", "Helvetica", sans-serif;
 }
 
@@ -75,6 +98,8 @@ html {
 }
 
 .site-navigation {
+    float: right;
+
     font-family: Georgia;
     font-size: 14px;
     text-transform: uppercase;
@@ -100,11 +125,20 @@ html {
 
 /* main */
 
+.introduction-background {
+    height: 335px;
+    background-image: linear-gradient(#161616, #333333);
+}
+
 .site-slogan {
     font-family: Georgia;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
+}
+
+.articles-list {
+    padding-left: 0;
 }
 
 .article {
@@ -192,6 +226,13 @@ html {
 
 /* footer */
 
+.column-footer {
+    float: left;
+}
+.copyright {
+    float: right;
+}
+
 .main-footer {
     color: #999999;
     font-family: Helvetica;
@@ -201,12 +242,11 @@ html {
 
     background-color: #333333;
     border-top: 10px solid #4c4c4c;
-
-    list-style: none;
 }
 
 .footer-navigation ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .footer-navigation a:hover,

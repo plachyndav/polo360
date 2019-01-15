@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="main-header">
-        <nav class="main-navigation">
+        <nav class="main-navigation  container">
             <div class="logo"><span class="polo-name">Polo360</span><br><span class="polo-moto">My kind of business blog</span></div>
             <ul class="site-navigation">
                 <li><a href="#">Home<br><span class="link-comment">Back to home</span></a></li>
@@ -28,30 +28,33 @@
         <h1 class="visually-hidden">Business Blog "Polo360"</h1>
     
         <section class="introduction">
-            <h2 class="visually-hidden">Introuduction</h2>
-            <div class="slider">
+            <div class="introduction-background"></div>
+            <div class="container">
+                <h2 class="visually-hidden">Introuduction</h2>
+                <div class="slider">
+                </div>
+                <p class="site-slogan">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
             </div>
-            <p class="site-slogan">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </section>
 
-        <section class="articles">
+        <section class="articles  container">
             <h2 class="visually-hidden">Articles</h2>
             <ul class=articles-list>
-                <li class="article">
+                <li class="article column">
                     <h3 class="article-name">Perfect Logic</h3>
                     <p class="article-explanation">All you want your website to do.</p>
                     <img class="article-picture" src="img/logic.jpg" alt="">
                     <p class="article-preview">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                     <a class="btn btn-learn" href="#">Learn more</a>
                 </li>
-                <li class="article">
+                <li class="article column">
                     <h3 class="article-name">Complete Solution</h3>
                     <p class="article-explanation">A tool anything and everything you can think</p>
                     <img class="article-picture" src="img/solution.jpg" alt="">
                     <p class="article-preview">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciun tdolore magnam aliquam quaerat voluptatem.</p>
                     <a class="btn btn-learn" href="#">Learn more</a>
                 </li>
-                <li class="article">
+                <li class="article column">
                     <h3 class="article-name">Uber Culture</h3>
                     <p class="article-explanation">Fresh. Modern and ready for future</p>
                     <img class="article-picture" src="img/culture.jpg" alt="">
@@ -60,62 +63,68 @@
                 </li>
             </ul>
         </section>
-
-        <section class="social">
-            <h2>Social Connection</h2>
-            <p class="social-intro">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-            <div class="social__links"></div>
-            <div class="newsletter">
-                <b>Newsletter</b>
+        <div class="container">
+            <section class="social column">
+                <h2>Social Connection</h2>
                 <p class="social-intro">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-                <form class="form" action="#" method="post">
-                    <label class="visually-hidden" for="subscription-email">email for subscribe</label>
-                    <input id="subscription-email" name="subscription-email" type="text" placeholder="your email address">
-                    <button class="btn btn-connect" type="submit">Subscribe</button>
+                <div class="social__links"></div>
+                <div class="newsletter">
+                    <b>Newsletter</b>
+                    <p class="social-intro">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                    <form class="form" action="#" method="post">
+                        <label class="visually-hidden" for="subscription-email">email for subscribe</label>
+                        <input id="subscription-email" name="subscription-email" type="text" placeholder="your email address">
+                        <button class="btn btn-connect" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+    
+            <section class="contact column">
+                <h2>Contact</h2>
+                <form class="form" action="" method="post">
+                    <label class="visually-hidden" for="user-name">user name</label>
+                    <input id="user-name" type="text" name="user-name" value="" placeholder="your name">
+                    <label class="visually-hidden" for="user-email">user email</label>
+                    <input id="user-email" type="text" name="user-email" value="" placeholder="your email address">
+                    <label class="visually-hidden" for="user-message">user message</label>
+                    <textarea id="user-message" name="user-message" placeholder="message"></textarea>
+                    <button class="btn btn-connect" type="submit">Send it</button>
                 </form>
-            </div>
-        </section>
-
-        <section class="contact">
-            <h2>Contact</h2>
-            <form class="form" action="" method="post">
-                <label class="visually-hidden" for="user-name">user name</label>
-                <input id="user-name" type="text" name="user-name" value="" placeholder="your name">
-                <label class="visually-hidden" for="user-email">user email</label>
-                <input id="user-email" type="text" name="user-email" value="" placeholder="your email address">
-                <label class="visually-hidden" for="user-message">user message</label>
-                <textarea id="user-message" name="user-message" placeholder="message"></textarea>
-                <button class="btn btn-connect" type="submit">Send it</button>
-            </form>
-        </section>
-
-        <section class="news">
-            <h2>News Updates</h2>
-            <ul class="news-list">
-                <li class="news-item"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></li>
-                <li class="news-item"><a href="#">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</a></li>
-                <li class="news-item"><a href="#">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</a></li>
-            </ul>
-            <a class="btn btn-connect" href="#">Visit our Blog</a>
-        </section>
+            </section>
+    
+            <section class="news column">
+                <h2>News Updates</h2>
+                <ul class="news-list">
+                    <li class="news-item"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></li>
+                    <li class="news-item"><a href="#">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</a></li>
+                    <li class="news-item"><a href="#">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</a></li>
+                </ul>
+                <a class="btn btn-connect" href="#">Visit our Blog</a>
+            </section>
+        </div>
+        
     </main>
 
     <footer class="main-footer">
-        <p class="footer-info">Powered by Wordpress. Design and Developed by VIVROCKS.</p>
-        <nav class="footer-navigation">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <ul class="footer-navigation__policy">
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of use</a></li>
-            </ul>
-        </nav>
-        <p class="copyright">Copyright 2010. Studio VIVROCKS. All Rights Reserved.</p>
+        <div class="container">
+            <div class="column-footer">
+                <p class="footer-info">Site Powered by Wordpress. Design and Developed by VIVROCKS.</p>
+                <nav class="footer-navigation">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="policy">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="copyright">Copyright 2010. Studio VIVROCKS. All Rights Reserved.</p>
+        </div>
     </footer>
 
     <script src="js/script.js"></script>
