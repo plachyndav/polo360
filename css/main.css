@@ -375,6 +375,12 @@ html {
     border-radius: 4px;
 }
 
+.form textarea {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    height: 132px;
+}
+
 /* footer */
 
 .column-footer {
