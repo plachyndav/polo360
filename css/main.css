@@ -10,14 +10,6 @@ body {
     background-color: #ffffff;
 }
 
-h2 {
-    color: #444444;
-    font-family: Georgia;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 14px;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -239,14 +231,6 @@ html {
     background-repeat: no-repeat;
 }
 
-.social-intro {
-    color: #444444;
-    font-family: Helvetica;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-} 
-
 .btn-connect {
     color: #ffffff;
     font-family: Georgia;
@@ -270,6 +254,105 @@ html {
     background-repeat: no-repeat;
 }
 
+.column-name {
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #d4d4d4;
+
+    color: #444444;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    
+}
+
+.social-links {
+    margin-bottom: 33px;
+}
+
+.social-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.social-link {
+    display: block;    
+}
+
+.social-hz {
+    height: 57px;
+    width: 57px;
+
+    background-image: url("../img/social-hz.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.social-fb {
+    height: 56px;
+    width: 56px;
+
+    background-image: url("../img/social-fb.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.social-in {
+    height: 57px;
+    width: 57px;
+
+    background-image: url("../img/social-in.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.social-yt {
+    height: 60px;
+    width: 64px;
+
+    background-image: url("../img/social-yt.jpg");
+    background-repeat: no-repeat;
+    background-position: -2px -3px;
+}
+
+.social-tw {
+    height: 56px;
+    width: 56px;
+
+    margin-left: -7px;
+
+    background-image: url("../img/social-tw.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.social-intro {
+    margin: 0;
+    margin-bottom: 7px;
+
+    color: #444444;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+} 
+
+.newsletter-intro {
+    margin: 0;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    padding-top: 13px;
+
+    border-top: 1px dashed #d4d4d4;
+}
+
 .news-list {
     color: #444444;
     list-style: none;
@@ -277,13 +360,19 @@ html {
 
 .form input,
 .form textarea {
+    width: 100%;
+    height: 33px;
+    margin-bottom: 15px;
+
+    padding-left: 15px;
+
     font-family: "Verdana", sans-serif;
-    color: #d4d4d4;
     font-size: 10px;
     font-weight: 400;
     line-height: 14px;
 
     border: 1px solid #cfcfcf;
+    border-radius: 4px;
 }
 
 /* footer */
@@ -296,6 +385,8 @@ html {
 }
 
 .main-footer {
+    margin-top: 23px;
+
     color: #999999;
     font-family: Helvetica;
     font-size: 11px;
