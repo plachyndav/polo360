@@ -194,13 +194,15 @@ html {
     position: relative;
     display: inline-block;
     width: 164px;
-    height: 32px;
+    height: 34px;
     padding-left: 18px;
     padding-right: 25px;
 
     text-align: left;
     vertical-align: middle;
     line-height: 32px;
+
+    border-radius: 4px;
 }
 
 .btn:hover,
@@ -216,7 +218,7 @@ html {
     font-weight: 400;
 
     background-color: #f2f2f2;
-    background-image: url("../img/btn-grey .png");
+    background-image: url("../img/btn-grey.png");
     border: 1px solid #d8d8d8;
 }
 
@@ -379,6 +381,55 @@ html {
     margin-bottom: 10px;
     padding-top: 10px;
     height: 132px;
+}
+
+.news-list {
+    margin: 0;
+    padding: 0;
+}
+
+.news-list li {
+    height: 65px;
+}
+
+.news-item {
+    margin-bottom: 15px;
+    
+    border-bottom: 1px dashed #d4d4d4;
+}
+
+.news-item a {
+    display: block;
+    position: relative;
+    padding-left: 65px;
+}
+
+.news-item a::before {
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 0;
+    top: 0;
+
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.news-item:nth-child(1) a::before {
+    background-image: url("../img/news-1.png");
+}
+
+.news-item:nth-child(2) a::before {
+
+    background-image: url("../img/news-2.png");
+
+}
+
+.news-item:nth-child(3) a::before {
+
+    background-image: url("../img/news-3.png");
+
 }
 
 /* footer */
