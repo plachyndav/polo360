@@ -195,12 +195,16 @@ html {
     display: inline-block;
     width: 164px;
     height: 34px;
+    padding: 0px;
     padding-left: 18px;
     padding-right: 25px;
 
+    font-family: Helvetica;
     text-align: left;
     vertical-align: middle;
-    line-height: 32px;
+    line-height: 34px;
+    font-size: 12px;
+    font-weight: 400;
 
     border-radius: 4px;
 }
@@ -213,12 +217,10 @@ html {
 
 .btn-learn {
     color: #016999;
-    font-family: Helvetica;
-    font-size: 12px;
-    font-weight: 400;
 
     background-color: #f2f2f2;
     background-image: url("../img/btn-grey.png");
+    box-shadow: inset 0 0 3px #befeff;
     border: 1px solid #d8d8d8;
 }
 
@@ -235,9 +237,6 @@ html {
 
 .btn-connect {
     color: #ffffff;
-    font-family: Georgia;
-    font-size: 13px;
-    font-weight: 400;
 
     background-color: #366ba5;
     background-image: url("../img/btn-blue.png");
