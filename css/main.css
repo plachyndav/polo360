@@ -420,15 +420,12 @@ html {
 }
 
 .news-item:nth-child(2) a::before {
-
     background-image: url("../img/news-2.png");
 
 }
 
 .news-item:nth-child(3) a::before {
-
     background-image: url("../img/news-3.png");
-
 }
 
 /* footer */
@@ -464,6 +461,10 @@ html {
     display: inline-block;
     border-right: 1px solid #999999;
     padding-right: 4px;
+}
+
+.footer-navigation li:last-child {
+    border-right: none;
 }
 
 .footer-navigation a:hover,
