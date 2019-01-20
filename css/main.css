@@ -119,11 +119,51 @@ html {
 
 /* main */
 
+.introduction {
+    position: relative;
+}
+
 .introduction-background {
     margin-bottom: 55px;
 
     min-height: 335px;
     background-image: linear-gradient(#161616, #333333);
+}
+
+.slider {
+    position: absolute;
+    top: 22px;
+
+    width: 940px;
+    height: 342px;
+
+    border-radius: 8px;
+    background-image: url("../img/slider.jpg");
+    background-repeat: no-repeat;
+}
+
+.slider::after {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    bottom: 12px;
+    left: 20px; 
+    background-image: linear-gradient(to top, #6d6c6c 0%, #ffffff 80%, #c9c9c9 100%);    
+    border: 3px solid #252525; 
+    border-radius: 50%;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    bottom: 12px;
+    left: 37px; 
+    background-image: linear-gradient(to top, #02b0e6 0%, #99dff5 100%);
+    border: 3px solid #252525; 
+    border-radius: 50%;
 }
 
 .site-slogan {
