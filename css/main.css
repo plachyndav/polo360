@@ -441,7 +441,9 @@ html {
 }
 
 .main-footer {
+    min-height: 170px;
     margin-top: 23px;
+    padding-top: 5px;
 
     color: #999999;
     font-family: Helvetica;
@@ -460,6 +462,8 @@ html {
 
 .footer-navigation li {
     display: inline-block;
+    border-right: 1px solid #999999;
+    padding-right: 4px;
 }
 
 .footer-navigation a:hover,
