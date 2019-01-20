@@ -138,7 +138,7 @@ html {
     height: 342px;
 
     border-radius: 8px;
-    background-image: url("../img/slider1.jpg");
+    background-image: url("https://www.dropbox.com/s/q2m8e22wpod0r5l/slider1.jpg?dl=1");
     background-repeat: no-repeat;
 }
 
@@ -265,7 +265,7 @@ html {
     color: #016999;
 
     background-color: #f2f2f2;
-    background-image: url("../img/btn-grey.png");
+    background-image: url("https://www.dropbox.com/s/fzleb8ku9f0au13/btn-grey.png?dl=1");
     box-shadow: inset 0 0 3px #befeff;
     border: 1px solid #d8d8d8;
 }
@@ -277,7 +277,7 @@ html {
     height: 7px;
     right: 8px;
     top: 12px; 
-    background-image: url("../img/arrow-blue.png");
+    background-image: url("https://www.dropbox.com/s/2dt9fh82ohap864/arrow-blue.png?dl=1");
     background-repeat: no-repeat;
 }
 
@@ -285,7 +285,7 @@ html {
     color: #ffffff;
 
     background-color: #366ba5;
-    background-image: url("../img/btn-blue.png");
+    background-image: url("https://www.dropbox.com/s/eyy487r7cdzdl1i/btn-blue.png?dl=1");
     box-shadow: inset 0 0 3px #befeff;
     border: 1px solid #004a80;
 }
@@ -297,7 +297,7 @@ html {
     height: 7px;
     right: 8px;
     top: 12px; 
-    background-image: url("../img/arrow-white.png");
+    background-image: url("https://www.dropbox.com/s/2dt9fh82ohap864/arrow-blue.png?dl=1");
     background-repeat: no-repeat;
 }
 
@@ -337,7 +337,7 @@ html {
     height: 57px;
     width: 57px;
 
-    background-image: url("../img/social-hz.jpg");
+    background-image: url("https://www.dropbox.com/s/1lopvbuuuer71ti/social-hz.jpg?dl=1");
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -346,7 +346,7 @@ html {
     height: 56px;
     width: 56px;
 
-    background-image: url("../img/social-fb.jpg");
+    background-image: url("https://www.dropbox.com/s/k3q9olzi86hkb4p/social-fb.jpg?dl=1");
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -355,7 +355,7 @@ html {
     height: 57px;
     width: 57px;
 
-    background-image: url("../img/social-in.jpg");
+    background-image: url("https://www.dropbox.com/s/4wxtoux972849zo/social-in.jpg?dl=1");
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -364,7 +364,7 @@ html {
     height: 60px;
     width: 64px;
 
-    background-image: url("../img/social-yt.jpg");
+    background-image: url("https://www.dropbox.com/s/k35rsf26kom6cxz/social-yt.jpg?dl=1");
     background-repeat: no-repeat;
     background-position: -2px -3px;
 }
@@ -375,7 +375,7 @@ html {
 
     margin-left: -7px;
 
-    background-image: url("../img/social-tw.jpg");
+    background-image: url("https://www.dropbox.com/s/nncrg304zee3pjg/social-tw.jpg?dl=1");
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -462,16 +462,16 @@ html {
 }
 
 .news-item:nth-child(1) a::before {
-    background-image: url("../img/news-1.png");
+    background-image: url("https://www.dropbox.com/s/rnj7m2kjglvgwg4/news-1.png?dl=1");
 }
 
 .news-item:nth-child(2) a::before {
-    background-image: url("../img/news-2.png");
+    background-image: url("https://www.dropbox.com/s/woxwijsy5ucb65k/news-2.png?dl=1");
 
 }
 
 .news-item:nth-child(3) a::before {
-    background-image: url("../img/news-3.png");
+    background-image: url("https://www.dropbox.com/s/bzllspgfhp1rmt6/news-3.png?dl=1");
 }
 
 /* footer */
